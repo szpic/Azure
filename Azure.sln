@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctions", "AzureFunctions", "{33FB0535-27D9-4F11-A812-50ED5B7D1D41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTrigger", "AzureFunctions\MyFirstAzureFunction\HttpTrigger.csproj", "{D6ADD7F9-5094-498D-AC0E-9532AC93670B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureStorage", "AzureStorage", "{9C013DE5-C1A7-4936-836C-9C5AC02A3292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleQueueApp", "AzureStorage\SimpleQueueApp\SimpleQueueApp.csproj", "{1869A6F8-77B2-4F34-B93A-965A65B712A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureServiceBusQueue", "AzureServiceBusQueue", "{352DEFAA-7263-4D51-AC1A-0CF049250913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBusQueueSender", "AzureFunctions\AzureServiceBusQueue\AzureServiceBusQueueSender\AzureServiceBusQueueSender.csproj", "{52DFB7C4-D827-42FC-83F3-A41F97DED501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionBusQueueTrigger", "AzureFunctions\AzureServiceBusQueue\AzureFunctionBusQueueTrigger\AzureFunctionBusQueueTrigger.csproj", "{62DEA391-FF87-4598-A0F6-4C4D2641A6C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{C7235909-D8FA-4668-BF1F-363E8B2ED234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiWithAzureVault", "WebApi\SimpleApiWithAzureVault\SimpleApiWithAzureVault.csproj", "{032DEB59-6C6B-46CE-AC0C-168297F9DC22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6ADD7F9-5094-498D-AC0E-9532AC93670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ADD7F9-5094-498D-AC0E-9532AC93670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ADD7F9-5094-498D-AC0E-9532AC93670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ADD7F9-5094-498D-AC0E-9532AC93670B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1869A6F8-77B2-4F34-B93A-965A65B712A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1869A6F8-77B2-4F34-B93A-965A65B712A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1869A6F8-77B2-4F34-B93A-965A65B712A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1869A6F8-77B2-4F34-B93A-965A65B712A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DFB7C4-D827-42FC-83F3-A41F97DED501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DFB7C4-D827-42FC-83F3-A41F97DED501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DFB7C4-D827-42FC-83F3-A41F97DED501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DFB7C4-D827-42FC-83F3-A41F97DED501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DEA391-FF87-4598-A0F6-4C4D2641A6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DEA391-FF87-4598-A0F6-4C4D2641A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DEA391-FF87-4598-A0F6-4C4D2641A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DEA391-FF87-4598-A0F6-4C4D2641A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032DEB59-6C6B-46CE-AC0C-168297F9DC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032DEB59-6C6B-46CE-AC0C-168297F9DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032DEB59-6C6B-46CE-AC0C-168297F9DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032DEB59-6C6B-46CE-AC0C-168297F9DC22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6ADD7F9-5094-498D-AC0E-9532AC93670B} = {33FB0535-27D9-4F11-A812-50ED5B7D1D41}
+		{1869A6F8-77B2-4F34-B93A-965A65B712A8} = {9C013DE5-C1A7-4936-836C-9C5AC02A3292}
+		{352DEFAA-7263-4D51-AC1A-0CF049250913} = {33FB0535-27D9-4F11-A812-50ED5B7D1D41}
+		{52DFB7C4-D827-42FC-83F3-A41F97DED501} = {352DEFAA-7263-4D51-AC1A-0CF049250913}
+		{62DEA391-FF87-4598-A0F6-4C4D2641A6C1} = {352DEFAA-7263-4D51-AC1A-0CF049250913}
+		{032DEB59-6C6B-46CE-AC0C-168297F9DC22} = {C7235909-D8FA-4668-BF1F-363E8B2ED234}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78EB215D-5292-4401-A474-6345F2808C93}
+	EndGlobalSection
+EndGlobal

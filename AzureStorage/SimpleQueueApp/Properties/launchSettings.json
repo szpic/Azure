@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "SimpleQueueApp": {
+      "commandName": "Project"
+    }
+  }
+}
